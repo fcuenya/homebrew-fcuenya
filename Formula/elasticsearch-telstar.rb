@@ -12,7 +12,7 @@ class ElasticsearchTelstar < Formula
 
   # deprecate! :date => "2019-03-11"
 
-  depends_on :java => "1.8"
+  # depends_on :java => "1.8"
 
   def cluster_name
     "elasticsearch"
