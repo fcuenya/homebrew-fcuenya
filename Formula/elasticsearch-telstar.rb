@@ -2,14 +2,14 @@ class ElasticsearchTelstar < Formula
     desc "Distributed search & analytics engine"
     homepage "https://www.elastic.co/products/elasticsearch"
     url "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.6.0.tar.gz"
-    sha256 "15a79ff7206aea581f6afae48c4637210f5b3539"
-    license "Apache-2.0"
+    # sha256 "15a79ff7206aea581f6afae48c4637210f5b3539"
+    # license "Apache-2.0"
   
-    bottle do
-      sha256 cellar: :any_skip_relocation, big_sur:  "e199fbcb913252e2f60134de2dfff98bff9ae3f1a28f30f3f44c8b0174e189fb"
-      sha256 cellar: :any_skip_relocation, catalina: "6bb47c36590116e78d14b1d3bdce0aa091867f5a30007018b9fcac14ca0c3d8b"
-      sha256 cellar: :any_skip_relocation, mojave:   "dbc33bf97783ffae45b4438219a8e4586b82f9939d7c9cdb2398bace6f8ade8b"
-    end
+    # bottle do
+    #   sha256 cellar: :any_skip_relocation, big_sur:  "e199fbcb913252e2f60134de2dfff98bff9ae3f1a28f30f3f44c8b0174e189fb"
+    #   sha256 cellar: :any_skip_relocation, catalina: "6bb47c36590116e78d14b1d3bdce0aa091867f5a30007018b9fcac14ca0c3d8b"
+    #   sha256 cellar: :any_skip_relocation, mojave:   "dbc33bf97783ffae45b4438219a8e4586b82f9939d7c9cdb2398bace6f8ade8b"
+    # end
   
     depends_on "gradle@6" => :build
     depends_on "openjdk"
