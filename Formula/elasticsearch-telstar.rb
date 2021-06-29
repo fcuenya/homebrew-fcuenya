@@ -4,7 +4,7 @@ class ElasticsearchTelstar < Formula
   # url "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.6.16.tar.gz"
   # sha256 "6b035a59337d571ab70cea72cc55225c027ad142fbb07fd8984e54261657c77f"
   url "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.6.0.tar.gz"
-  sha256 "15a79ff7206aea581f6afae48c4637210f5b3539"
+  sha256 "a38f6e9b4282e1e39d2e7f237d3e0226b46001af38164ed40f764bb6768af057"
 
   bottle :unneeded
 
